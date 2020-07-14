@@ -1,6 +1,6 @@
-FROM node:8-alpine
+FROM node:12-alpine
 
-WORKDIR /Users/ayorindeadunse/dockerNode/src
+WORKDIR /Users/ayorindeadunse/dockerNode
 
 COPY package*.json ./
 
